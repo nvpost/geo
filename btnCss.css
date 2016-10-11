@@ -1,23 +1,11 @@
 .btnY{
 
-	background: -moz-linear-gradient(
-		top,
-		#0ffa46 0%,
-		#0b782d);
 	background: -webkit-gradient(
 		linear, left top, left bottom,
-		from(#0ffa46),
+		from(#6BF98C),
 		to(#0b782d));
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
 	border-radius: 7px;
 	border: 2px solid #000000;
-	-moz-box-shadow:
-		2px 2px 11px rgba(000,000,000,0.7),
-		inset 0px 0px 1px rgba(153,66,141,1);
-	-webkit-box-shadow:
-		2px 2px 11px rgba(000,000,000,0.7),
-		inset 0px 0px 1px rgba(153,66,141,1);
 	box-shadow:
 		2px 2px 11px rgba(000,000,000,0.7),
 		inset 0px 0px 1px rgba(153,66,141,1);
@@ -28,25 +16,12 @@
 
 
 .btnN {
-
-	background: -moz-linear-gradient(
-		top,
-		#db4b9c 0%,
-		#3b0823);
 	background: -webkit-gradient(
 		linear, left top, left bottom,
-		from(#db4b9c),
+		from(#DB69A9),
 		to(#3b0823));
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
 	border-radius: 7px;
 	border: 2px solid #000000;
-	-moz-box-shadow:
-		2px 2px 11px rgba(000,000,000,0.7),
-		inset 0px 0px 1px rgba(153,66,141,1);
-	-webkit-box-shadow:
-		2px 2px 11px rgba(000,000,000,0.7),
-		inset 0px 0px 1px rgba(153,66,141,1);
 	box-shadow:
 		2px 2px 11px rgba(000,000,000,0.7),
 		inset 0px 0px 1px rgba(153,66,141,1);
@@ -54,10 +29,28 @@
 		2px 2px 0px rgba(0,0,0,0.3),
 		0px 1px 0px rgba(255,255,255,0.3);
 }
+
+.btnY:active{
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#0ffa46),
+		to(#075820));
+
+}
+.btnN:active {
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#BC257A),
+		to(#3D0422));
+}
 .btnMaster{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 28px;
 	color: #ffffff;
 	padding: 10px 20px;
+	display: inline-table;
+	position: relative;
+	width: 43%;
+	margin: 10px;
 }
 

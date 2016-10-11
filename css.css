@@ -1,5 +1,52 @@
-.buttonField>div{
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.header{
+	height: 7%;
+	background-color: #5A5A5A;
+	color: #fff;
+	text-align: center;
+	padding-top: 3%;
+}
+.header>div{
 	display: inline-table;
-	width: 40%;
-	height: 500px;
+	width: 30%;
+	font-weight: bold;
+}
+.buttonField{
+	text-align: center;
+	position: fixed;
+	bottom: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.theme, .qweText, .answer{
+	width:100%;
+	margin-top: 10px;
+	font-size: 24px;
+	padding-left: 5px;
+}
+.qweText{
+
+}
+.answer{
+	position: fixed;
+	bottom: 20%;
+}
+
+.footer{
+	height: 5%;
+	background-color: #5A5A5A;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	padding-top: 3%;
+}
+#check{
+	width: 30px;
+	height: 30px;
+	background-color: red;
 }

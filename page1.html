@@ -3,30 +3,39 @@
 <link rel="stylesheet" href="lib/bootstrap.min.css">
 <link rel="stylesheet" href="lib/bootstrap-theme.min.css">
 <script src="lib/bootstrap.min.js"></script>
+<script src="geobase.js"></script>
 <link rel="stylesheet" href="btnCss.css">
 <link rel="stylesheet" href="css.css">
 <meta charset="utf-8">
-
+<body>
 <div class="activity">
 	<div class="header">
-		<div class="timer"></div>
-		<div class="counreQwe"></div>
-		<div class="score"></div>
+		<div class="timer">Время <span>00:00</span></div>
+		<div class="counreQwe">Путь: <span>12/15</span></div>
+		<div class="score">Очки: <span>152</span><span id="check" ></span></div>
 	</div>	
 	<div class="mainField">
 		<div class="qweField">
+			<div class="theme">
+				<p>Тематика: <span>География</span></p>
+			</div>	
 			<div class="qweImg">
 			</div>
 			<div class="qweText">
+				<p>Вопрос: <span>Страна, занимающая ведущее место по водным и лесным ресурсам на душу населения</span></p>
 			</div>
 			<div class="answer">
+				<p>Ответ: <span>Канада</span></p>
 			</div>
 		</div>
-		</div class="buttonField">
+
+		<div class="buttonField">
 			<div class="btnMaster btnY">Да</div>
 			<div class="btnMaster btnN">Нет</div>
 		</div>	
 	</div>
-	</div class="footer">
+	<div class="footer">copyright
 	</div>	
-</div>	
+</div>
+<script src="js.js"></script>
+</body>	

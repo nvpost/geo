@@ -50,3 +50,8 @@ body{
 	height: 30px;
 	background-color: red;
 }
+.timer div, .score div, .counreQwe div{
+	display: inline-table;
+	width: 40px;
+	text-align: center;
+}

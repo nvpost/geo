@@ -55,3 +55,16 @@ body{
 	width: 40px;
 	text-align: center;
 }
+.qweField{
+	height: 88%
+}
+.qweFieldN{
+	border: 1px solid red;
+	box-shadow:0px 0px 9px 2px rgba(252, 0, 113,1) inset;
+	height: 88%
+}
+.qweFieldY{
+	border: 1px solid rgba(34, 252, 0,1);
+	box-shadow:0px 0px 9px 2px rgba(34, 252, 0,1) inset;
+	height: 88%
+}

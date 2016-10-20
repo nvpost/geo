@@ -75,9 +75,11 @@ $('.btnMaster').on('click', function(){
 		cl('Правильно с заведомо верным score='+score)
 		$('.score').find('span').html(score)
 		$('.score').find('span').html(score)
+		blink('y')
 		t=0;
 	}else{
 		cl('не правильно score='+t/100)
+		blink('n')
 		t=0;
 	}
 	NumberQweList.shift()//удаляем один из блоков и запускаем игру
@@ -87,6 +89,22 @@ $('.btnMaster').on('click', function(){
 if(confirm('Старт')){	
 	qweBlock(qweCount)
 }
+//Мигание фона
+function blink(v){
+	if (v=="y"){
+		cl('зеленый')
+		$('.qweField').addClass('qweFieldY')
+		setTimeout(function(){$('.qweField').removeClass('qweFieldY')}, 100)
+	}
+	if (v=="n"){
+		cl('Красный')
+		$('.qweField').addClass('qweFieldN')
+		setTimeout(function(){$('.qweField').removeClass('qweFieldN')}, 100)
+	}
+}
+
+
+//Конец мигания фона
 //Блок функций
 
 //$('.theme').find('span').html(geoBase[qweNumber][0])
